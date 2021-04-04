@@ -30,8 +30,7 @@ public class Ejercicio3 {
 		do {
 			System.out.println("¿Deseas evaluar otro polinomio? (si/no)");
 			respuesta = in.readLine();
-			respuestaIncorrecta = !respuesta.equalsIgnoreCase("si") && !respuesta.equalsIgnoreCase("no");
-			if (respuestaIncorrecta)
+			if (respuestaIncorrecta = !respuesta.equalsIgnoreCase("si") && !respuesta.equalsIgnoreCase("no"))
 				System.out.println("Respuesta incorrecta.");
 		} while (respuestaIncorrecta);
 		return (respuesta.equalsIgnoreCase("no"));
